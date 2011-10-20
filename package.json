@@ -1,0 +1,25 @@
+{
+    "name": "FINN-STYLE"
+  , "description": "Finn compiler/setup. Uses nib"
+  , "version": "0.0.3"
+  , "dependencies": {
+      "connect"           : "*"
+    , "jade"              : "*"
+    , "stylus"            : "*"
+    , "nib"               : "*"
+    , "stylus-blueprint"  : "*"
+    , "canvas"            : "*"
+    , "underscore"        : "*"
+    , "argparser"         : "*"
+    , "colors"            : "*"
+    , "node-fs"           : "*"
+  }
+  , "author": "Sveinung Røsaker"
+  , "main"  : "./index.js"
+  , "bin"   : {
+      "finnstyle": "./bin/finnstyle"
+    }
+  , "engines": { 
+      "node"   : ">=4.12" 
+    }
+}

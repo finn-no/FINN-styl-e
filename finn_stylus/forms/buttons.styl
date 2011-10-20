@@ -1,0 +1,28 @@
+@import './colors'
+@import '../css3'
+
+blueButton()
+  button(buttonBlue, buttonTop, buttonRight, buttonBottom, buttonLeft)
+
+//orangeButton()
+//  button()
+
+button( bg, borderColors... )
+  background-color: bg
+  border: 1px solid arguments[1]
+  border-color: borderColors
+  color: white
+  font-weight: bold
+  cursor: pointer
+  padding: 0 4px 1px 3px
+  voice-family: inherit
+  overflow: visible
+  -webkit-appearance: none
+  -webkit-box-align: center
+  box-shadow(none)
+  box-sizing: border-box
+  display: inline-block
+  font-family: Arial, Helvetica, sans-serif
+  left: auto
+  margin: 0
+  text-align: center
