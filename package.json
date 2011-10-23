@@ -1,5 +1,5 @@
 {
-    "name": "FINN-STYLE"
+    "name": "FINN-STYL"
   , "description": "Finn compiler/setup. Uses nib"
   , "version": "0.0.3"
   , "dependencies": {
@@ -13,6 +13,9 @@
     , "argparser"         : "*"
     , "colors"            : "*"
     , "node-fs"           : "*"
+    , "hashlib"           : "*"
+    , "vows"              : "*"
+    , "eyes"              : "*"
   }
   , "author": "Sveinung Røsaker"
   , "main"  : "./index.js"
