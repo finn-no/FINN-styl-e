@@ -1,21 +1,21 @@
 {
-    "name": "FINN-STYL"
+    "name": "FINN-styl-e"
   , "description": "Finn compiler/setup. Uses nib"
-  , "version": "0.0.3"
+  , "version": "0.0.1"
   , "dependencies": {
-      "connect"           : "*"
-    , "jade"              : "*"
-    , "stylus"            : "*"
-    , "nib"               : "*"
-    , "stylus-blueprint"  : "*"
-    , "canvas"            : "*"
-    , "underscore"        : "*"
-    , "argparser"         : "*"
-    , "colors"            : "*"
-    , "node-fs"           : "*"
-    , "hashlib"           : "*"
-    , "vows"              : "*"
-    , "eyes"              : "*"
+      "connect"           : ">=1.7.1"
+    , "stylus"            : ">=0.17.0"
+    , "nib"               : ">=0.2.0"
+    , "stylus-blueprint"  : ">=0.2.0"
+    , "canvas"            : ">=0.7.3"
+    , "underscore"        : ">=1.2.0"
+    , "colors"            : ">=0.5.1"
+    , "node-fs"           : ">=0.1.0"
+    , "hashlib"           : "1.0.1"
+    , "vows"              : "0.5.12"
+    , "eyes"              : ">=0.1.6"
+    , "expresso"          : ">=0.9.2"
+    , "watch"             : ">=0.3.3"
   }
   , "author": "Sveinung Røsaker"
   , "main"  : "./index.js"
@@ -24,5 +24,8 @@
     }
   , "engines": { 
       "node"   : ">=4.12" 
+    }
+  , "scripts"       : {
+      "test": "expresso"
     }
 }

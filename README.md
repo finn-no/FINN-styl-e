@@ -1,10 +1,9 @@
-finnstyle --compile --watch
-
- (stylus integration)
-  *  - watch imports
-
-Tanken er at
-  - compiler (en gangs)
-  - watcher, compiler ved kjøring og sammenligner md5 hash av fil
-  - checker, sammenligner allerede compilert fil med compilert resultat av kilde
+#FINN-styl-e! work/hack in progress, please ignore :).
   
+  $ git clone
+
+  $ npm install && npm link
+  
+  $ make a config.json file and cd to this folder.
+
+  $ finnstyle
