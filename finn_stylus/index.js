@@ -5,6 +5,6 @@
 module.exports = function () {
   return function (style) {
     style.include(__dirname);
-    style.import(__dirname + '/index.styl');
+    style.import(__dirname + '/always_import.styl');
   }
 };
