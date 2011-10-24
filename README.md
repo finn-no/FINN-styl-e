@@ -1,9 +1,9 @@
 #FINN-styl-e! work/hack in progress, please ignore :).
   
-  - Get code
+  - Get code, place wherever you want...
 
   
-        $ git clone
+        $ git clone git@github.com:finn-no/FINN-styl-e.git
   
   
   -  install node-canvas dependency "cairo grapics library": https://github.com/LearnBoost/node-canvas/wiki || http://cairographics.org/download/ 
@@ -15,20 +15,17 @@
 
 
   - Dependencies
-  
-  ? Install node.js >= v0.4.12 and npm. www.nodejs.org, www.npmjs.org
+    - ? Install node.js >= v0.4.12 and npm. www.nodejs.org, www.npmjs.org
   
 
-        $ npm install
+            $ npm install
   
-        $ sudo npm link
+            $ sudo npm link
   
   - Usage
-  
-  ? make a config.json file and 'cd' to this folder.
-  
-
-        $ finnstyle
+    -  make a config.json file and 'cd' to this folder.      
+    
+            $ finnstyle
   
   
 #TODO
