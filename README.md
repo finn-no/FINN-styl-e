@@ -13,7 +13,7 @@
   $ sudo npm link
   
   - Usage
-  $ make a config.json file and cd to this folder.
+  ? make a config.json file and 'cd' to this folder.
   $ finnstyle
   
   
