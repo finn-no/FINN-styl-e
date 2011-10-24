@@ -15,18 +15,17 @@
 
 
   - Dependencies
-  ? Install node.js >= v0.4.12 and npm. www.nodejs.org, www.npmjs.org
+    - ? Install node.js >= v0.4.12 and npm. www.nodejs.org, www.npmjs.org
   
 
-        $ npm install
+            $ npm install
   
-        $ sudo npm link
+            $ sudo npm link
   
   - Usage
-  ? make a config.json file and 'cd' to this folder.
-  
-
-        $ finnstyle
+    -  make a config.json file and 'cd' to this folder.      
+    
+            $ finnstyle
   
   
 #TODO
