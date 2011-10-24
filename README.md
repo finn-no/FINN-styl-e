@@ -1,9 +1,9 @@
 #FINN-styl-e! work/hack in progress, please ignore :).
   
-  - Get code
+  - Get code, place wherever you want...
 
   
-        $ git clone
+        $ git clone git@github.com:finn-no/FINN-styl-e.git
   
   
   -  install node-canvas dependency "cairo grapics library": https://github.com/LearnBoost/node-canvas/wiki || http://cairographics.org/download/ 
