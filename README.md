@@ -7,3 +7,8 @@
   $ make a config.json file and cd to this folder.
 
   $ finnstyle
+  
+  
+#TODO
+  - Make pretty/non-hacky :)
+  - Make tests
