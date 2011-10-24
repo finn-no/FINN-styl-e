@@ -2,13 +2,13 @@
   
   - Get code
   
-  $ git clone
+      $ git clone
   
   -  install node-canvas dependency "cairo grapics library": https://github.com/LearnBoost/node-canvas/wiki || http://cairographics.org/download/ 
   
-    $  sudo sudo apt-get install libcairo2-dev libjpeg8-dev
+      $ sudo sudo apt-get install libcairo2-dev libjpeg8-dev
   
-    $  sudo port install cairo
+      $ sudo port install cairo
 
   - Dependencies
   
