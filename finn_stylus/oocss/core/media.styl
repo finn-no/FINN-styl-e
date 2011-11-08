@@ -1,8 +1,6 @@
 .media
   display block
-  overflow hidden 
-  *overflow visible 
-  zoom 1 
+  oocss_clearfix()
   .img
     float left 
     margin-right  10px 
@@ -11,7 +9,7 @@
   .imgExt
     float right  
     margin-left  10px 
-  & >  first-child, & .bd >  first-child 
+  & > :first-child, & .bd > :first-child 
     margin-top  0
   .bd > * 
     margin-right  0

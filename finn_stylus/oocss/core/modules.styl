@@ -1,13 +1,21 @@
-.mod
+@import 'core_utils'
+
+.mod, .mod_1st, .mod_2nd, .mod_3rd
   margin 10px
   border-radius 2px
 
+.mod_inflate
+  margin 10px 0
+  > .hd
+    margin 10px 10px 0px 10px
+  
 .mod_1st
   background: white 
 .mod_2nd 
-  background: #def 
+  background: boxBlue 
 .mod_3rd 
   background: #eef8ff
+  
 .mod_att 
   background: #ffc
 .mod_tip 
@@ -16,12 +24,10 @@
   background: green
 
 .bd, .ft, .hd 
-  overflow:hidden
-  *overflow:visible
-  zoom:1
+  oocss_clearfix()
 
 .hd 
-  background: #def
+  background: boxBlue
   border-radius: 2px 2px 0 0
 
 .hd_help,
