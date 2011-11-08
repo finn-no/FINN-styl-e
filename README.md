@@ -1,4 +1,10 @@
 #FINN-styl-e! work/hack in progress, please ignore :).
+
+Goals
+- Integrate stylus well
+- Auto import and expose convenient libs
+- Global config file
+- Support spriting
   
   - Get code, place wherever you want...
 
@@ -9,9 +15,11 @@
   -  install node-canvas dependency "cairo grapics library": https://github.com/LearnBoost/node-canvas/wiki || http://cairographics.org/download/ 
   
 
-        $ sudo sudo apt-get install libcairo2-dev libjpeg8-dev
+        LINUX:  $ sudo sudo apt-get install libcairo2-dev libjpeg8-dev libgd pngcrush
   
-        $ sudo port install cairo
+        MAC:    $ sudo brew install cairo libgd pngcrush
+        
+        WINDOWS:$ noop!
 
 
   - Dependencies

@@ -1,0 +1,49 @@
+.media
+  display block
+  overflow hidden 
+  *overflow visible 
+  zoom 1 
+  .img
+    float left 
+    margin-right  10px 
+    img
+      display block
+  .imgExt
+    float right  
+    margin-left  10px 
+  & >  first-child, & .bd >  first-child 
+    margin-top  0
+  .bd > * 
+    margin-right  0
+    margin-left  0
+  .bd > last-child 
+    margin-bottom  0
+
+.media_20pct .img 
+  width  20%
+  
+.media_25pct .img 
+  width  25%
+  
+.media_30pct .img 
+  width  30%
+  
+.media_35pct .img 
+  width  35%
+  
+.media_20pct, .media_25pct,.media_30pct, .media_35pct   
+  .img 
+    img
+      width  100%
+    
+.media_max20pct .img 
+  max-width  20%
+  
+.media_max25pct .img 
+  max-width  25%
+  
+.media_max30pct .img 
+  max-width  30%
+  
+.media_max35pct .img 
+  max-width  35%
