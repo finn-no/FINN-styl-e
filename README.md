@@ -1,4 +1,4 @@
-#FINN-styl-e! work/hack in progress, please ignore :).
+#FINN-styl-e! work/hack cli in progress, please _ignore_ :).
 
 Goals
 - Integrate stylus well
