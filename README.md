@@ -15,7 +15,7 @@ Goals
   -  install node-canvas dependency "cairo grapics library": https://github.com/LearnBoost/node-canvas/wiki || http://cairographics.org/download/ 
   
 
-        LINUX:  $ sudo sudo apt-get install libcairo2-dev libjpeg8-dev libgd pngcrush
+        LINUX:  $ sudo apt-get install libcairo2-dev libjpeg8-dev libgd2-xpm-dev pngcrush
   
         MAC:    $ sudo brew install cairo libgd pngcrush
         
