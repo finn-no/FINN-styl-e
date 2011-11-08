@@ -8,9 +8,3 @@ module.exports = function () {
     style.import(__dirname + '/always_import.styl');    
   }
 };
-/*
-var ReponsiveCollector = function ReponsiveCollector(){
-   
-}
-
-ReponsiveCollector.prototype.__proto__ = nodes.Selector.prototype*/
