@@ -1,14 +1,18 @@
 {
     "src"         : "./stylus"
-  , "target"      : "./stylus_result"  
-  , "watch"       : true
+  , "target"      : ["./stylus_target", "./../../../../../../target/exploded/styles/mainfrontpage/abstraction/stylus_target"]
+  , "images"      : "./stylus_images"
+  , "outputImage" : "./stylus_images"
+  
+  , "watch"       : false
   , "ignoreLibUpdates" : true
+  , "debugInfo"   : false
   , "paths"       : [ "./stylus" ]
-  , "compress"    : false
-  , "exclude"     : "^_|^\\.|^node_modules"
-  , "development" : true
-  , "server"      : { 
-      "active" : true
+  , "compress"    : true
+  , "exclude"     : "^_|^\\.|^index|_mod.styl$"
+  , "development" : false
+  , "server"      : {
+      "active" : false
     , "ip"     : "localhost"
     , "port"   : 3939
     }

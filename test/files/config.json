@@ -1,14 +1,18 @@
 {
     "src"         : "./stylus"
-  , "target"      : "./stylus_result"  
+  , "target"      : ["./stylus_target"]
+  , "images"      : "./stylus_images"
+  , "outputImage" : "./stylus_images"
+  
   , "watch"       : true
-  , "ignoreLibUpdates" : true
+  , "ignoreLibUpdates" : false
+  , "debugInfo"   : true
   , "paths"       : [ "./stylus" ]
   , "compress"    : false
-  , "exclude"     : "^_|^\\.|^node_modules"
-  , "development" : true
-  , "server"      : { 
-      "active" : true
+  , "exclude"     : "^_|^\\.|^index|_mod.styl$"
+  , "development" : false
+  , "server"      : {
+      "active" : false
     , "ip"     : "localhost"
     , "port"   : 3939
     }
