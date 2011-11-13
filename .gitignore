@@ -6,3 +6,4 @@ tmp/*
 .DS_Store
 .~lock.*
 node_modules
+./test/files/stylus_target**

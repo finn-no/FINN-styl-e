@@ -27,7 +27,7 @@
       "finnstyle": "./bin/finnstyle"
     }
   , "engines": { 
-      "node"   : ">=4.9" 
+      "node"   : ">=6" 
     }
   , "scripts"       : {
       "test": "expresso"

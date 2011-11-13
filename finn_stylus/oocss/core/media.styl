@@ -6,13 +6,15 @@ a
   display block
   oocss_clearfix()
   .img
-    float left 
-    margin-right  10px 
+    @480
+      float left 
+      margin-right  10px 
     img
       display block
   .imgExt
-    float right  
-    margin-left  10px 
+    @480
+      float right  
+      margin-left  10px 
   & > :first-child, & .bd > :first-child 
     margin-top  0
   .bd > * 
@@ -21,31 +23,49 @@ a
   .bd > last-child 
     margin-bottom  0
 
-.media_20pct .img 
-  width  20%
+@480
+  .media_20pct 
+    .img, .imgExt
+      width  20%
   
-.media_25pct .img 
-  width  25%
+  .media_25pct 
+    .img, .imgExt
+      width  25%
   
-.media_30pct .img 
-  width  30%
+  .media_30pct 
+    .img, .imgExt
+      width  30%
   
-.media_35pct .img 
-  width  35%
+  .media_35pct 
+    .img, .imgExt 
+      width  35%
   
-.media_20pct, .media_25pct,.media_30pct, .media_35pct   
-  .img 
-    img
-      width  100%
+  .media_50pct 
+    .img, .imgExt
+      width 50%
+  
+  .media_20pct, .media_25pct,.media_30pct, .media_35pct,
+  .media_max20pct, .media_max25pct,.media_max30pct,.media_max30pct,.media_max50pct   
+    .img, .imgExt 
+      img
+        width  100%
     
-.media_max20pct .img 
-  max-width  20%
+  .media_max20pct 
+    .img, .imgExt 
+      max-width  20%
   
-.media_max25pct .img 
-  max-width  25%
+  .media_max25pct 
+    .img, .imgExt 
+      max-width  25%
   
-.media_max30pct .img 
-  max-width  30%
+  .media_max30pct 
+    .img, .imgExt 
+      max-width  30%
   
-.media_max35pct .img 
-  max-width  35%
+  .media_max35pct 
+    .img, .imgExt
+      max-width  35%
+  
+  .media_max50pct 
+    .img, .imgExt
+      max-width 50%
