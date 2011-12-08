@@ -19,7 +19,7 @@
     , "mkdirp"            : "*"
     , "argsparser"        : "*"
     , "stylus-sprite"     : "*"
-    , "cssom"             : "*"
+    , "cssom-papandreou"  : "*"
   }
   , "author": "Sveinung Røsaker"
   , "main"  : "./index.js"
