@@ -20,6 +20,7 @@
     , "argsparser"        : "*"
     , "stylus-sprite"     : "*"
     , "cssom-papandreou"  : "*"
+    , "node-gd"           : "*"
   }
   , "author": "Sveinung Røsaker"
   , "main"  : "./index.js"
