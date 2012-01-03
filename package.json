@@ -7,8 +7,8 @@
     , "stylus"            : ">=0.17.0"
     , "nib"               : ">=0.2.0"
     , "stylus-blueprint"  : ">=0.2.0"
-    , "canvas"            : ">=0.7.3"
-    , "underscore"        : ">=1.2.0"
+    , "canvas"            : ">=0.8.2"
+    , "underscore"        : ">=1.2.0"¯
     , "colors"            : ">=0.5.1"
     , "node-fs"           : ">=0.1.0"
     , "hashlib"           : "1.0.1"
@@ -28,7 +28,7 @@
       "finnstyle": "./bin/finnstyle"
     }
   , "engines": { 
-      "node"   : ">=6" 
+      "node"   : "0.4.12" 
     }
   , "scripts"       : {
       "test": "expresso"
